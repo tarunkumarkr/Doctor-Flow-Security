@@ -51,4 +51,7 @@ public class UserController {
 
         return ResponseEntity.status(HttpStatus.ACCEPTED.value()).body(successResponce);
     }
+    public static  void get(){
+        System.out.println("hbfjdhhjdb");
+    }
 }
